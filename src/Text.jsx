@@ -20,7 +20,7 @@ const Text = {
       title:
         'Universidade Federal dos Vales do Jequitinhonha e Mucuri, Diamantina - Brazil',
       subtitle: 'University Degree',
-      dates: 'Juli 2018 - Juli 2023',
+      dates: 'July 2018 - July 2023',
       text: 'Bachelor of Applied Science - BASc, Information Systems',
       skills: 'Skills',
       skillsText: 'Python · Java · C++ · MySQL',
@@ -30,26 +30,26 @@ const Text = {
       certifications: {
         deutschB2: {
           name: 'Deutsch-Test für den Beruf (DTB B2)',
-          date: 'dez. 2024',
+          date: 'Dec. 2024',
           company: 'telc',
           skill: 'German',
         },
         deutschDTB: {
           name: 'Deutsch-Test für Zuwanderer',
-          date: 'jun. 2024',
+          date: 'Jun. 2024',
           company: 'G.A.S.T.',
           skill: 'German',
         },
         javascript: {
           name: 'JavaScript ES6+ (74h)',
-          date: 'mai. 2022',
+          date: 'May 2022',
           company: 'Origamid',
           skill: 'Javascript',
           link: 'https://www.origamid.com/certificate/5df5b1af/',
         },
         java: {
           name: 'GFT Start Woman (55h)',
-          date: 'mai. 2022',
+          date: 'May 2022',
           company: 'DIO',
           skill: 'Java',
           link: 'https://www.dio.me/certificate/95110F4F/share',
@@ -121,21 +121,21 @@ const Text = {
   german: {
     tabs: {
       resume: 'Lebenslauf',
-      projects: 'Projekts',
+      projects: 'Projekte',
     },
     bio: 'Hallo! Mein Name ist Natascha und ich bin Junior Full Stack Entwicklerin. Ich habe praktische Erfahrung und bevorzuge die Arbeit mit C# und ASP.NET im Backend. Ich habe auch Kenntnisse in Programmierung mit Python, jQuery, Java und React.',
     buttons: {
-      portfolio: 'Projekts',
+      portfolio: 'Projekte',
       experience: 'Berufserfahrung',
       education: 'Ausbildung',
     },
     projects: {
       dogs: 'Dogs ist ein soziales Netzwerk, in dem Nutzer Fotos ihrer Hunde hochladen, die Bilder anderer liken und kommentieren können. Es ist eine einfache Plattform, um Bilder von Haustieren zu teilen und mit anderen zu interagieren.',
       fantasticAnimals:
-        'Animais Fantásticos ist eine Website, die Informationen über verschiedene Tiere wie Eichhörnchen, Löwen, Wölfe, Füchse und Bären bereitstellt. Die Website wurde als Teil meines JavaScript-Lernprozesses entwickelt.',
+        'Fantastische Tiere ist eine Website, die Informationen über verschiedene Tiere wie Eichhörnchen, Löwen, Wölfe, Füchse und Bären bereitstellt. Die Website wurde als Teil meines JavaScript-Lernprozesses entwickelt.',
     },
     education: {
-      tab: 'ausbildung',
+      tab: 'Ausbildung',
       title:
         'Universidade Federal dos Vales do Jequitinhonha e Mucuri, Diamantina - Brasilien',
       subtitle: 'Universitätsabschluss',
@@ -280,14 +280,14 @@ const Text = {
         },
         javascript: {
           name: 'JavaScript ES6+ (74h)',
-          date: 'mai. 2022',
+          date: 'maio de 2022',
           company: 'Origamid',
           skill: 'JavaScript',
           link: 'https://www.origamid.com/certificate/5df5b1af/',
         },
         java: {
           name: 'GFT Start Woman (55h)',
-          date: 'mai. 2022',
+          date: 'maio de 2022',
           company: 'DIO',
           skill: 'Java',
           link: 'https://www.dio.me/certificate/95110F4F/share',
@@ -299,7 +299,7 @@ const Text = {
         job: 'Atendimento ao cliente de TI',
         company: 'Jenner Partner GbR',
         type: 'Meio período',
-        period: 'out de 2023 - jan de 2024',
+        period: 'outubro de 2023 - janeiro de 2024',
         duration: '4 meses',
         location: 'Hamburgo, Alemanha',
         competences: [],
@@ -308,7 +308,7 @@ const Text = {
         job: 'Desenvolvedor Web',
         company: 'dti digital',
         type: 'Estágio',
-        period: 'jun de 2022 - jun de 2023',
+        period: 'junho de 2022 - junho de 2023',
         duration: '1 ano 1 mês',
         competences: [
           'JavaScript',
@@ -322,7 +322,7 @@ const Text = {
         job: 'Designer',
         company: 'Next Step - Empresa Júnior',
         type: 'Estágio',
-        period: 'mai de 2021 - out de 2021',
+        period: 'maio de 2021 - outubro de 2021',
         duration: '6 meses',
         competences: [
           'JavaScript',
@@ -335,7 +335,7 @@ const Text = {
         job: 'Organizador de Eventos',
         company: 'Next Step - Empresa Júnior',
         type: 'Estágio',
-        period: 'jun de 2020 - abr de 2021',
+        period: 'junho de 2020 - abril de 2021',
         duration: '11 meses',
         competences: [
           'Publicidade',
@@ -347,7 +347,7 @@ const Text = {
         job: 'Atendimento ao cliente de TI',
         company: 'INSS',
         type: 'Estágio',
-        period: 'ago de 2017 - jul de 2019',
+        period: 'agosto de 2017 - julho de 2019',
         duration: '2 anos',
         competences: [
           'Microsoft Windows',

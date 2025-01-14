@@ -29,15 +29,9 @@ function App() {
   const toggleEducationVisibility = () => setEducationVisible(!educationVisible);
   const toggleExperienceVisibility = () => setExperienceVisible(!educationVisible);
 
-  
-  console.log("experienceVisible: "+experienceVisible);
-
   return (
     <>
       <div className="container">
-        <div className="container-1"></div>
-        <div className="container-2"></div>
-        <div className="container-3"></div>
         <Draggable>
         <div className="container-big">
           <div className="container-big-div">

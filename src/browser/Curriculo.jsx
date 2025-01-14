@@ -4,8 +4,6 @@ import brazil from "../assets/brazil.svg";
 import germany from "../assets/germany.svg";
 
 const Curriculo = ({ showProjects, handleLanguageChange, text, toggleEducationVisibility,toggleExperienceVisibility }) => {
-  console.log("teste"+toggleEducationVisibility);
-  console.log("teste"+toggleExperienceVisibility);
   return (
     <>
       <div className="teste-3">
