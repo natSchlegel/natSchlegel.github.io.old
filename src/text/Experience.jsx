@@ -26,7 +26,6 @@ const Experience = ({ text }) => {
             </div>
             <div className="text-itself">
               <div>
-                <span>-------------------------------------</span>
                 {text.experience && Object.keys(text.experience).length > 0 ? (
                   Object.keys(text.experience).map((key) => {
                     const item = text.experience[key];

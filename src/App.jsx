@@ -27,7 +27,7 @@ function App() {
   const showCurriculo = () => setCurriculoVisivel(true);
   const showProjects = () => setCurriculoVisivel(false);
   const toggleEducationVisibility = () => setEducationVisible(!educationVisible);
-  const toggleExperienceVisibility = () => setExperienceVisible(!educationVisible);
+  const toggleExperienceVisibility = () => setExperienceVisible(!experienceVisible);
 
   return (
     <>
@@ -86,7 +86,6 @@ function App() {
           </div>
         </div>
         </Draggable>
-
         {experienceVisible && <Experience text={text} />}
         {educationVisible && <Education text={text}/>}
       </div>
