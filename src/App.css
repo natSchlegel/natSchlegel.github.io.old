@@ -47,6 +47,15 @@ h1 {
   line-height: 1.1;
 }
 
+.hireMe{
+  position: absolute;
+  width: 110px;
+  top: 5px;
+  right: -20px;
+  transform: rotate(-15deg);
+
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -419,6 +428,7 @@ button:focus-visible {
   background: url("./assets/photo.jpg");
   color: white;
   margin-top: 20px;
+  position: relative;
   width: 260px;
   height: 375px;
   justify-self: center;

@@ -20,6 +20,14 @@ const Projects = ({text}) => {
     tools: ["javascript", "css", "html"],
   };
 
+  const programadas = {
+    name: "Programadas - Oficina HTML",
+    link: "https://natschlegel.github.io/animais-fantasticos/",
+    text: text.projects.fantasticAnimals,
+    image: animalsImage,
+    tools: ["javascript", "css", "html"],
+  }
+
   return (
     <div className="project-boxes">
       <Project name={dogs.name} link={dogs.link} text={dogs.text} image={dogs.image} tools={dogs.tools} />

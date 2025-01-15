@@ -77,6 +77,7 @@ function App() {
                 showProjects={showProjects}
                 handleLanguageChange={handleLanguageChange}
                 text={text}
+                currentLanguage={currentLanguage}
                 toggleEducationVisibility={toggleEducationVisibility}
                 toggleExperienceVisibility ={toggleExperienceVisibility}
               />
@@ -86,6 +87,7 @@ function App() {
           </div>
         </div>
         </Draggable>
+        
         {experienceVisible && <Experience text={text} />}
         {educationVisible && <Education text={text}/>}
       </div>
