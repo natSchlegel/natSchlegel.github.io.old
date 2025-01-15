@@ -14,6 +14,7 @@ const Text = {
       dogs: 'Dogs is a social network where users can upload photos of their dogs, like and comment on others\' pictures. It\'s a simple platform to share pet images and interact with others.',
       fantasticAnimals:
         'Fantastic Animals is a website that provides information about various animals like squirrels, lions, wolves, foxes, and bears. The website was developed as part of my JavaScript learning process.',
+        programadas: 'Website developed to showcase the webpages created by high school students participating in the HTML Workshop held on October 31 and November 1, 2019, as part of the UFVJM"s ProgramADAs project.'
     },
     education: {
       tab: 'education',
@@ -133,6 +134,7 @@ const Text = {
       dogs: 'Dogs ist ein soziales Netzwerk, in dem Nutzer Fotos ihrer Hunde hochladen, die Bilder anderer liken und kommentieren können. Es ist eine einfache Plattform, um Bilder von Haustieren zu teilen und mit anderen zu interagieren.',
       fantasticAnimals:
         'Fantastische Tiere ist eine Website, die Informationen über verschiedene Tiere wie Eichhörnchen, Löwen, Wölfe, Füchse und Bären bereitstellt. Die Website wurde als Teil meines JavaScript-Lernprozesses entwickelt.',
+        programadas: "Website entwickelt, um die von den Schülerinnen der Oberstufe erstellten Webseiten zu präsentieren, die an der HTML-Werkstatt teilnahmen, die am 31. Oktober und 1. November 2019 im Rahmen des ProgramADAs-Projekts der UFVJM stattfand."
     },
     education: {
       tab: 'Ausbildung',
@@ -252,6 +254,7 @@ const Text = {
       dogs: 'Dogs é uma rede social onde os usuários podem enviar fotos de seus cães, curtir e comentar as fotos de outros. É uma plataforma simples para compartilhar imagens de animais de estimação e interagir com outras pessoas.',
       fantasticAnimals:
         'Animais Fantásticos é um site que fornece informações sobre vários animais, como esquilos, leões, lobos, raposas e ursos. O site foi desenvolvido como parte do meu processo de aprendizado em JavaScript.',
+        programadas: "Website desenvolvido para expor as webpages desenvolvidas pelas estudantes de ensino médio participantes da Oficina de HTML realizada nos dias 31 de outubro e 01 de novembro de 2019 através do projeto ProgramADAs da UFVJM."
     },
     education: {
       tab: 'educação',
