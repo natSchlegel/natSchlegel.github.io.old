@@ -7,9 +7,6 @@ import hireEN from "../assets/hireen.svg";
 import hirePT from "../assets/hirept.svg";
 
 const Curriculo = ({ showProjects, handleLanguageChange, text, toggleEducationVisibility, toggleExperienceVisibility,currentLanguage }) => {
-
-
-
   const hireImage = () => {
     if (currentLanguage === "german") return hireDE;
     if (currentLanguage === "portuguese") return hirePT;
