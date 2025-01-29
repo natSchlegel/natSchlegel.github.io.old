@@ -127,7 +127,7 @@ const Text = {
     bio: 'Hallo! Mein Name ist Natascha und ich bin Junior Full Stack Entwicklerin. Ich habe praktische Erfahrung und bevorzuge die Arbeit mit C# und ASP.NET im Backend. Ich habe auch Kenntnisse in Programmierung mit Python, jQuery, Java und React.',
     buttons: {
       portfolio: 'Projekte',
-      experience: 'Berufserfahrung',
+      experience: 'Erfahrung',
       education: 'Ausbildung',
     },
     projects: {
