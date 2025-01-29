@@ -67,9 +67,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
-}
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -160,6 +158,45 @@ button:focus-visible {
   background-color: #ff6058;
 }
 
+.subtitleMobile {
+  font-size: 32px;
+  color: #121212;
+  font-weight: 700;
+  max-width: 170px;
+  line-height: initial;
+  align-self:baseline;
+}
+
+.mobile{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.boxMobile{
+  background-color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: black;
+  padding: 18px;
+}
+
+.textMobile{
+  color: black;
+}
+
+
+.textLanguagesMobile{
+  display: flex; 
+  gap: 15px;
+}
+
+.textLanguagesMobile img{
+  width: 40px;
+}
+
 .circle-yellow {
   border: none;
   width: 20px;
@@ -170,13 +207,20 @@ button:focus-visible {
   background-color: #fec12e;
 }
 
-.text-title-box {
-}
-
 .text-circles {
   display: flex;
   flex-direction: row;
   padding-left: 20px;
+}
+
+.buttonMobile{
+  display: flex;
+  gap: 10px;
+  
+}
+
+.buttonMobile button{
+  color: white;
 }
 
 .circle-green {
