@@ -7,6 +7,8 @@ import hireEN from "../assets/hireen.svg";
 import { isBrowser, isMobile } from 'react-device-detect';
 import hirePT from "../assets/hirept.svg";
 import Projects from "./Projects";
+import Education from "../text/Education";
+import Experience from "../text/Experience";
 
 const Curriculo = ({ showProjects, handleLanguageChange, text, toggleEducationVisibility, toggleExperienceVisibility, currentLanguage }) => {
   const hireImage = () => {
@@ -21,14 +23,13 @@ const Curriculo = ({ showProjects, handleLanguageChange, text, toggleEducationVi
 
     return (
       <div className="mobile-grid">
-
         <div className="mobile">
           <div className="subtitleMobile">Hello World</div>
           <span className="textMobile">{text.bio}</span>
           <div className="buttonMobile">
-            <button>{text.buttons.portfolio}</button>
-            <button>{text.buttons.experience}</button>
-            <button>{text.buttons.education}</button>
+            <button href="#projects">{text.buttons.portfolio}</button>
+            <button href="#experience">{text.buttons.experience}</button>
+            <button href="#education">{text.buttons.education}</button>
           </div>
           <div className="textLanguagesMobile">
             <img src={germany} className="flag" onClick={() => handleLanguageChange("german")} alt="DE" />
@@ -37,6 +38,8 @@ const Curriculo = ({ showProjects, handleLanguageChange, text, toggleEducationVi
           </div>
         </div>
         <Projects text={text} />
+        <Education text={text} />
+        <Experience text={text} />
 
       </div>
     );

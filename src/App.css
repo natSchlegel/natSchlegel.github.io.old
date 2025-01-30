@@ -452,6 +452,13 @@ padding: 5%;
   font-family: "Courier Prime", serif;
 }
 
+.text-box-mobile{
+  display: grid;
+  grid-template-rows: 5% 90% 5%;
+  border-radius: 10px;
+  font-family: "Courier Prime", serif;
+}
+
 .text-itself-title {
   font-weight: 700;
   font-family: "Courier Prime", serif;
@@ -499,6 +506,13 @@ padding: 5%;
   padding: 20px;
   overflow: auto;
 }
+
+.text-itself-mobile {
+  background-color: #ffffff;
+  grid-row: 2;
+  color: #000000;
+  padding: 20px;
+} 
 .text-footer {
   background-color: #fcfcfc;
   grid-row: 3;
