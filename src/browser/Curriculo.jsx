@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useRef} from "react";
 import uk from "../assets/uk.svg";
 import brazil from "../assets/brazil.svg";
 import germany from "../assets/germany.svg";
@@ -17,7 +17,12 @@ const Curriculo = ({ showProjects, handleLanguageChange, text, toggleEducationVi
     return hireEN;
   };
 
-  console.log(text);
+  const sectionRef = useRef(null);
+  
+  const scrollToSection = () => {
+    sectionRef.current.scrollIntoView({ behavior: "smooth" });
+    console.log("test");
+  };
 
   if (isMobile) {
 
@@ -27,7 +32,7 @@ const Curriculo = ({ showProjects, handleLanguageChange, text, toggleEducationVi
           <div className="subtitleMobile">Hello World</div>
           <span className="textMobile">{text.bio}</span>
           <div className="buttonMobile">
-            <button href="#projects">{text.buttons.portfolio}</button>
+            <button onClick={scrollToSection} >{text.buttons.portfolio}</button>
             <button href="#experience">{text.buttons.experience}</button>
             <button href="#education">{text.buttons.education}</button>
           </div>
@@ -37,7 +42,7 @@ const Curriculo = ({ showProjects, handleLanguageChange, text, toggleEducationVi
             <img src={uk} className="flag" onClick={() => handleLanguageChange("english")} alt="EN" />
           </div>
         </div>
-        <Projects text={text} />
+        <Projects ref={sectionRef} text={text} />
         <Education text={text} />
         <Experience text={text} />
 

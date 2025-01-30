@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Draggable from 'react-draggable';
 import { isMobile } from 'react-device-detect';
 
-const Experience = ({ text }) => {
+const Experience = ({ text, ref }) => {
   const [isVisible, setIsVisible] = useState(true);
 
   const handleClick = () => {
@@ -11,7 +11,7 @@ const Experience = ({ text }) => {
 
   if (isMobile) {
     return (
-      <div className="text-box-mobile" id="experience">
+      <div className="text-box-mobile" ref={ref}>
       <div className="text-menu">
                     <div className="text-circles">
             </div>
